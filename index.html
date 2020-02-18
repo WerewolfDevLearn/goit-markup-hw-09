@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>goit-markup-hw-08</title>
+    <title>goit-markup-hw-09</title>
 
     <link
       href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700%7CRoboto:300,400,700,900&display=swap"
@@ -18,13 +18,23 @@
           <div class="user-nav container">
             <ul class="contacts flex">
               <li>
-                <a href="tel:+123-123456789" class="contacts__phone-number link"
-                  >123-123456789</a
+                <a href="tel:+123-123456789" class="contacts__phone-number "
+                  >
+                  <svg class="contacts__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-phone"></use>
+                  </svg>
+
+                  <p class="contacts__info">123-123456789</p>
+                  </a
                 >
               </li>
               <li>
-                <a href="mailto:info@ltnt.com" class="contacts__mail link"
-                  >info@ltnt.com</a
+                <a href="mailto:info@ltnt.com" class="contacts__mail"
+                  >
+                  <svg class="contacts__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-email"></use>
+                  </svg>
+                 <p class="contacts__info">info@ltnt.com</p></a
                 >
               </li>
             </ul>
@@ -89,7 +99,10 @@
       <section class="collection about">
         <div class="container">
           <ul class="list-about flex">
-            <li class="list-about__item list-about__item--bg-setting">
+            <li class="list-about__item ">
+              <svg class="list-about__icon">
+                <use href="./images/icons/symbol-defs.svg#icon-icon01"></use>
+              </svg>
               <h3 class="list-about__header">Setting</h3>
               <p class="list-about__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -97,7 +110,10 @@
                 qui. Ipsa nobis magni accusantium?
               </p>
             </li>
-            <li class="list-about__item list-about__item--bg-money-back">
+            <li class="list-about__item">
+              <svg class="list-about__icon">
+                <use href="./images/icons/symbol-defs.svg#icon-icon02"></use>
+              </svg>
               <h3 class="list-about__header">Money Back</h3>
               <p class="list-about__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -105,7 +121,10 @@
                 qui. Ipsa nobis magni accusantium?
               </p>
             </li>
-            <li class="list-about__item list-about__item--bg-ww-shipping">
+            <li class="list-about__item">
+              <svg class="list-about__icon">
+                <use href="./images/icons/symbol-defs.svg#icon-icon03"></use>
+              </svg>
               <h3 class="list-about__header">Worldwide Shipping</h3>
               <p class="list-about__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -114,8 +133,10 @@
               </p>
             </li>
             <li
-              class="list-about__item list-about__item--bg-shipping-direction"
-            >
+              class="list-about__item">
+              <svg class="list-about__icon">
+                <use href="./images/icons/symbol-defs.svg#icon-icon04"></use>
+              </svg>
               <h3 class="list-about__header">Worldwide Shipping</h3>
               <p class="list-about__text">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -146,19 +167,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -178,19 +209,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -210,19 +251,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -242,19 +293,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -282,19 +343,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -314,19 +385,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -346,19 +427,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -378,23 +469,32 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
-
             <li class="product__item">
               <a href="#" class="product__link">
                 <div class="product__img-container">
@@ -411,19 +511,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -443,19 +553,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -475,19 +595,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -507,19 +637,29 @@
                 </div>
               </a>
               <div class="product__actions interactive">
+                <button class="interactive__button">
+                 <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-favorit-icon"></use>
+                  </svg>
+              </button>
+                <button class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-comper-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--like interactive__button"
-                ></button>
+                  class="interactive__button">
+                  <svg class="iteractive__icon">
+                    <use href="./images/icons/symbol-defs.svg#icon-recent-icon"></use>
+                    </svg>
+                </button>
                 <button
-                  class="interactive__button--compare interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--watch-later interactive__button"
-                ></button>
-                <button
-                  class="interactive__button--add-to-cart interactive__button"
+                  class="interactive__button"
                 >
-                  Add to cart
+                <svg class="iteractive__icon">
+                  <use href="./images/icons/symbol-defs.svg#icon-add-to-cart"></use>
+                  </svg>
+                  <p class="interactive__text">Add to cart</p>
                 </button>
               </div>
             </li>
@@ -601,7 +741,11 @@
             id="email"
             class="footer__your-email"
           />
-          <button type="submit" class="footer__email-button"></button>
+          <button type="submit" class="footer__email-button">
+            <svg class="footer__icon">
+              <use href="./images/icons/symbol-defs.svg#icon-submit"></use>
+              </svg>
+          </button>
         </form>
       </footer>
     </main>
