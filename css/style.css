@@ -62,23 +62,15 @@ img {
   line-height: 32px;
   font-weight: 900;
   text-align: center;
-  margin-bottom: 80px;
+  margin-bottom: 28px;
 }
-.collection__header::after,
-.footer__header--decoration::after {
-  content: "";
+.collection__decoration{
   display: block;
   width: 164px;
   height: 15px;
-  margin-top: 28px;
+  margin-bottom:78px;
   margin-left: auto;
   margin-right: auto;
-}
-.collection__header::after {
-  background-image: url(../images/icons/decoration-icons/decoration-icon-green.svg);
-}
-.footer__header--decoration::after {
-  background-image: url(../images/icons/decoration-icons/decoration-icon-white.svg);
 }
 /* Logo */
 .logo {
@@ -130,14 +122,7 @@ img {
 .contacts__mail {
   display: inline-flex;
   align-items: center;
-}
-.contacts__phone-number {
-  padding-right: 17px;
-}
-.contacts__mail {
-  padding-left: 17px;
-  padding-right: 17px;
-}
+} 
 .contacts__mail:hover,
 .contacts__mail:focus,
 .contacts__phone-number:hover,
