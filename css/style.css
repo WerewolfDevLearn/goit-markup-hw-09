@@ -385,6 +385,7 @@ img {
   width: 100%;
   object-fit: scale-down;
 }
+
 .product__img-container::before {
   display: block;
   content: "";
