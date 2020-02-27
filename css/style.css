@@ -450,6 +450,7 @@ img {
   fill: var(--product-heading-text-color);
 }
 .interactive__text {
+  display: block;
   padding-left: 10px;
 }
 .interactive__button:nth-child(3) {
